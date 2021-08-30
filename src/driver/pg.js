@@ -11,7 +11,7 @@ const client = new Client({
 async function run() {
   await client.connect();
 
-  const insertQuery = 'INSERT INTO customers(\"accountId\", name, latitude, longitude, archived) VALUES($1, $2, $3, $4, $5)'
+  const insertQuery = 'INSERT INTO customers(\"accountId\", name, latitude, longitude, archived) VALUES ($1, $2, $3, $4, $5)'
   const insertParams = [1, 'Localização Teste - SQL Raw', 1.000, 2.000, false]
   // insert
   await client.query(insertQuery, insertParams);

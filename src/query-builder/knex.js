@@ -14,7 +14,6 @@ async function run() {
     archived: false
   });
 
-
   // select
   const rows = await db.from("customers")
     .select()

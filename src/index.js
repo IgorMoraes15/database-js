@@ -1,5 +1,5 @@
-// Uncomment the example you want ro run
+// Descomente a linha para executar o desejado
 
 // require("./driver/pg");
 // require("./query-builder/knex");
-require("./orm/sequelize");
+// require("./orm/sequelize");
